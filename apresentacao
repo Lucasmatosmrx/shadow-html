@@ -1,0 +1,14 @@
+# APRESENTAÇÃO
+
+- shadow (text-shadow, box-shadow)
+    - text-shadow
+        - A propriedade `text-shadow` acrescenta sombras ao texto. Ela aceita uma lista de sombras separadas por vírgula que serão aplicados ao texto e ao `[text-decorations](https://developer.mozilla.org/pt-BR/docs/Web/CSS/text-decoration)` do elemento. Cada sombra é especificada como um deslocamento do texto, juntamente com valores opcionais de cor e raio de desfoque. Multiplas sombras são aplicadas de frente-para-trás, com a primeira sombra especificada no topo.
+        
+        ```css
+        /* deslocamento-x | deslocamento-y | raio-de-desfoque | cor */
+        text-shadow: 1px 1px 2px black;
+        ```
+        
+    
+    - box-shadow
+        - O **`box-shadow`** é uma propriedade do CSS, é utilizado para adicionar efeitos de sombra em volta de um elemento. Você pode especificar mais de um efeito, os separando com virgulas. Uma box-shadow é descrita pelo deslocamentos (offset) X e Y em relação ao elemento, desfoco e propagação do raio e cor.
